@@ -67,7 +67,23 @@
 }
 
 /* 7. exercice-all-in-1 */
+.exercice-all-in-1 .container {
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
 
+.exercice-all-in-1 .element-blue {
+  align-self: flex-start;
+}
+
+.exercice-all-in-1 .element-red {
+  order: 1;
+}
+
+.exercice-all-in-1 .element-green {
+  order: 2;
+}
 
 /* 8. exercice-all-in-2 */
 
