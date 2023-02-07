@@ -95,5 +95,18 @@
   order: 1;
 }
 
-/* 8. exercice-margin-auto */
+.exercice-all-in-2 .element-pink {
+  order: 2;
+  align-self: flex-start;
+}
 
+.exercice-all-in-2 .element-blue {
+  order: 3;
+}
+
+/* 8. exercice-margin-auto */
+.exercice-margin-auto .container {
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
