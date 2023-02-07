@@ -86,7 +86,14 @@
 }
 
 /* 8. exercice-all-in-2 */
+.exercice-all-in-2 .container {
+  justify-content: space-between;
+  align-items: center;
+}
 
+.exercice-all-in-2 .element-green {
+  order: 1;
+}
 
 /* 8. exercice-margin-auto */
 
