@@ -33,7 +33,14 @@
 }
 
 /* 4. exercice-order-3 */
+.exercice-order-3 .container{
+  flex-direction: row-reverse;
+}
 
+.exercice-order-3 .element-blue,
+.exercice-order-3 .element-red {
+  order: 1;
+}
 
 /* 5. exercice-align-self-1*/
 
